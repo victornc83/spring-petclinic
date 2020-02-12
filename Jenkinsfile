@@ -13,6 +13,6 @@ nodeMaven{
 nodeKube{
     unstash "artifact"
     stage("Publishing app"){
-        sh "kubectl -version"
+        sh "kubectl version"
     }
 }
