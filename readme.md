@@ -1,4 +1,5 @@
 # Spring PetClinic Sample Application
+![Java CI with Maven](https://github.com/victornc83/spring-petclinic/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 Deploy this sample application to Pivotal Web Services:
 
 ## Understanding the Spring Petclinic application with a few diagrams
