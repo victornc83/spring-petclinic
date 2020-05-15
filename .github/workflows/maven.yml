@@ -23,7 +23,7 @@ jobs:
     - name: Cache
       uses: actions/cache@v1.2.0
       with:
-        path: ${{ HOME }}/.m2 
+        path: ${HOME}/.m2 
         key: cache
     - name: Build with Maven
       run: mvn -B package --file pom.xml
